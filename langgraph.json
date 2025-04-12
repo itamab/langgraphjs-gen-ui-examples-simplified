@@ -1,0 +1,11 @@
+{
+  "node_version": "20",
+  "graphs": {
+    "agent": "./src/agent/weather/index.ts:graph"
+  },
+  "ui": {
+    "agent": "./src/agent-uis/index.tsx"
+  },
+  "env": ".env",
+  "dependencies": ["."]
+}
